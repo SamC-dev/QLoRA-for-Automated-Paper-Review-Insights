@@ -9,10 +9,10 @@ The goal is to evaluate whether fine tuning a LLM (Qwen3-1.7B) can produce revie
 - Each review includes a score from 1 to 10
 
 ## Methodology
-- Fine-tuned Qwen-3 1.7B with **QLoRA**  
+- Fine-tuned Qwen-3 1.7B with QLoRA 
 - Compared against:
-  - **Zero-shot baseline**  
-  - **Human-written reviews**  
+  - Zero-shot baseline
+  - Human-written reviews
 
 ## Evaluation Metrics
 - **ROUGE** (1, 2, L) – n-gram overlap with human reviews  
